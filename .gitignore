@@ -1,0 +1,41 @@
+# Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode and Jupyter hidden folders
+.virtual_documents/
+
+# Git folder (ignore only when deleting)
+!.git/
+
+# Data files (optional: include if large or sensitive)
+*.csv
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.sav
+
+# Log files
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python environment folders
+env/
+venv/
+*.env
+*.venv
+
+# Notebooks output cache
+*.nbconvert.ipynb
+
+# Markdown editor temp files
+*.bak
+*.swp
